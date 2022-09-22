@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.altairretro.practice.ProductAddTest">
+      <class name="alterrio_retro_project.Tc_01_sales_and_inventory_Test">
         <methods>
-          <include name="methodSetUp"/>
-          <include name="classSetUp"/>
-          <include name="addProduct"/>
-          <include name="methodTearDown"/>
+          <include name="closeEntire"/>
+          <include name="setupApp"/>
+          <include name="main"/>
+          <include name="logoutSuccess"/>
         </methods>
-      </class> <!-- org.altairretro.practice.ProductAddTest -->
+      </class> <!-- alterrio_retro_project.Tc_01_sales_and_inventory_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
